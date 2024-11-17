@@ -1,0 +1,125 @@
+* {
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     border: 0;
+     appearance: none;
+     text-decoration: none;
+     list-style: none;
+     box-sizing: border-box;
+     font-family: Manrope, monospace;
+     background-color: transparent;
+}
+
+.space-y-3>*+* {
+     margin-top: 0.75rem;
+     /* 12px */
+}
+
+.space-y-5>*+* {
+     margin-top: 1.25rem;
+     /* 20px */
+}
+
+.gap-20 {
+     gap: 20px;
+}
+
+.grid {
+     display: grid;
+}
+
+.grid-cols-1 {
+     grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+     grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+     grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+     grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.coming {
+     background-color: #d3d3d3; /* Light gray background */
+     height: 100vh;
+     width: 100vw;
+}
+
+.headText {
+     font-size: 80px;
+     font-weight: 800;
+     line-height: 87.77px;
+     text-align: center;
+     background: linear-gradient(136.72deg, #969696 -8.73%, #202020 74.71%, #969696 118.95%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+}
+
+.count {
+     border-radius: 17px;
+     background: #ffffff26;
+     backdrop-filter: blur(11px);
+     padding: 15px 60px;
+     font-size: 50px;
+     font-weight: 800;
+     line-height: 39.01px;
+     text-align: center;
+     color: #6E6E6E; /* Dark gray text */
+}
+
+.texts {
+     font-size: 25px;
+     font-weight: 500;
+     line-height: 19.5px;
+     text-align: center;
+     text-transform: capitalize;
+     color: #8C8C8C; /* Medium gray text */
+}
+
+/* md */
+@media (max-width: 768px) {
+     .md-grid-cols-1 {
+          grid-template-columns: repeat(1, minmax(0, 1fr));
+     }
+
+     .md-grid-cols-2 {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+     }
+
+     .md-grid-cols-3 {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+     }
+
+     .md-grid-cols-4 {
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+     }
+
+     section {
+          height: 100vh;
+     }
+
+     .headText {
+          font-size: 42px;
+     }
+
+     .count {
+          font-size: 25px;
+          padding: 15px 30px;
+     }
+
+     .md-gap-3 {
+          gap: 0.75rem !important;
+          /* 12px */
+     }
+     .md-gap-1 {
+          gap: 5px!important;
+          /* 12px */
+     }
+}
