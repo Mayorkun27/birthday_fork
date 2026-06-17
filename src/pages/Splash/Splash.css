@@ -51,6 +51,7 @@
 
 .hero-section {
   background-color: #2e1a47;
+  padding: auto 1rem;
   animation: fadeIn 2s ease-in;
 }
 
@@ -65,7 +66,7 @@
 }
 
 .big-name {
-  font-size: 102px;
+  font-size: 110px;
   font-weight: 700;
   color: #fff;
   text-transform: capitalize;
