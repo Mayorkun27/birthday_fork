@@ -1,0 +1,6 @@
+/* App global styles */
+.navbar-fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

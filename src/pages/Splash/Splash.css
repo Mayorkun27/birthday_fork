@@ -1,0 +1,120 @@
+.splash-body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  background-color: #2e1a47;
+}
+
+.coming {
+  background-color: #2e1a47;
+  height: 100vh;
+  width: 100vw;
+}
+
+.headText {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 87.77px;
+  text-align: center;
+  background: linear-gradient(
+    136.72deg,
+    #969696 -8.73%,
+    #202020 74.71%,
+    #969696 118.95%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.count {
+  border-radius: 17px;
+  background: #ffffff26;
+  backdrop-filter: blur(11px);
+  padding: 15px 60px;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 39.01px;
+  text-align: center;
+  color: #6e6e6e;
+}
+
+.texts {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #8c8c8c;
+}
+
+.hero-section {
+  background-color: #2e1a47;
+  animation: fadeIn 2s ease-in;
+}
+
+.tiny-heading {
+  color: #ff00ff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.big-name {
+  font-size: 100px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.sub-text-lovely {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  opacity: 90;
+  font-family: sans-serif;
+  max-width: 600px;
+  font-weight: 300;
+}
+
+.btn-celebrate, .btn-celebrate:hover {
+  background-color: #ff00ff;
+  color: #fff;
+  border: none;
+  padding: 15px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  border-radius: 50px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .big-name {
+    font-size: 2.5rem;
+  }
+  .sub-text-lovely {
+    font-size: 1.1rem;
+  }
+  .tiny-heading {
+    font-size: 1rem;
+    letter-spacing: 3px;
+  }
+}
